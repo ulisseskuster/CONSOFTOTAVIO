@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página de Funções</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Bem-vindo(a)!</h1>
+  <div id="password-validation">
+    <h2>Validação de Senha</h2>
+    <input type="password" id="password-input" placeholder="Digite sua senha">
+    <button onclick="validatePassword('Otavio123')">Verificar Senha</button>
+    <p id="password-message"></p>
+  </div>
+
+  <div id="prime-number">
+    <h2>Verificação de Número Primo</h2>
+    <input type="number" id="number-input" placeholder="Digite um número">
+    <button onclick="checkPrime()">Verificar Número Primo</button>
+    <p id="prime-message"></p>
+  </div>
+
+  <div id="string-inversion">
+    <h2>Inversão de String</h2>
+    <input type="text" id="string-input" placeholder="Digite uma string">
+    <button onclick="invertString()">Inverter String</button>
+    <p id="inverted-string"></p>
+  </div>
+
+  <div id="factorial">
+    <h2>Cálculo do Fatorial</h2>
+    <input type="number" id="factorial-input" placeholder="Digite um número inteiro">
+    <button onclick="calculateFactorial()">Calcular Fatorial</button>
+    <p id="factorial-result"></p>
+  </div>
+
+  <div id="temperature-conversion">
+    <h2>Conversão de Temperatura</h2>
+    <input type="number" id="celsius-input" placeholder="Digite a temperatura em Celsius">
+    <button onclick="convertTemperature()">Converter para Fahrenheit</button>
+    <p id="fahrenheit-result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
